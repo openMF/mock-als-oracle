@@ -2,6 +2,15 @@
 
 This app is a mock-pathfinder app. It can be used with the Mojaloop Account Lookup System (ALS) to store and retrieve parties by MSISDN. 
 
+
+# Installation
+
+To install the mock-als-oracle, clone this repository and cd into the mock-als-oracle directory. Run the following commands:
+
+  docker-compose build
+	docker-compose up -d
+
+
 # Configuration
 
 To Configure ALS to use this Oracle, you will submit a post request to the ALS Admin endpoint for Oracles (http://account-lookup-service-admin.local/oracles). The body of the request will be something like this:
